@@ -143,16 +143,17 @@ The complete example code used in this first tutorial can be found below (you wi
 
 </html>
  ```
-If you save the code above in a file and save it as ``html`` your should be able to open it in a browser, resulting in something like the following image:
+
+If you save the code above in a HTML file you should be able to open it in a browser, resulting in something like the following image:
 
 ![Displaying a Base Map Using MapLibre](./tutorial_1.png)
 
 ## Bonus: a Vue 3 component to display a base-map using MapLibre
 While is important to understand the basics of adding a MapLibre base-map to a HTML page, a perhaps more modern way of achieving the same is through a Vue 3 component. This can also serve as the blue-print for other modern reactive UI frameworks.
 
-The steps of displaying a base-map in your page/app using Vue 3 are identical to the ones detailed for the HTML case: we declare and tag a ``div`` in the body of the page, we bind it to a [``maplibregl.Map``](https://maplibre.org/maplibre-gl-js/docs/API/classes/Map/) object, and we finally add mouse controls over the rendered map.
+The steps for displaying a base-map in your page/app using Vue 3 are identical to the ones detailed for the HTML case: we declare and tag a ``div`` in the body of the page, we bind it to a [``maplibregl.Map``](https://maplibre.org/maplibre-gl-js/docs/API/classes/Map/) object, and we finally add mouse controls over the rendered map.
 
-Below you find the complete code, which is also included in the [Map.ve](./Map.vue) file in this tutorial folder:
+Below you find the complete code, which is also included in the [Map.vue](./Map.vue) file in this tutorial folder:
 
 ```vue
 <template>
